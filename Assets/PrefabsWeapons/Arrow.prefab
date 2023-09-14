@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6800283947669032904}
   - component: {fileID: 8771747023621356292}
   - component: {fileID: 8771747023621356291}
-  - component: {fileID: 466814401893492889}
+  - component: {fileID: 8950526154625262930}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -111,7 +111,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8771747023621356291
 BoxCollider:
@@ -134,7 +134,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.038960695, y: 0.6, z: 0.038960695}
   m_Center: {x: 0, y: 0.3, z: 0}
---- !u!114 &466814401893492889
+--- !u!114 &8950526154625262930
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,12 +143,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4998866156035321373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ba56bda43f30654f969f5ec81fff55e, type: 3}
+  m_Script: {fileID: 11500000, guid: 005762e3b60b3e346aa83c7be4509c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 4998866156035321373}
-  originPoint: {fileID: 0}
-  rbArrow: {fileID: 0}
-  speed: 0
-  isShooting: 0
-  coldDown: 0

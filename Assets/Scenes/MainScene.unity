@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 9859731}
-  m_IndirectSpecularColor: {r: 0.54351395, g: 0.18100175, b: 0.1229122, a: 1}
+  m_IndirectSpecularColor: {r: 0.54337245, g: 0.18104792, b: 0.12296332, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2588,6 +2588,7 @@ GameObject:
   - component: {fileID: 7787847024300228769}
   - component: {fileID: 7787847024300228771}
   - component: {fileID: 7787847024300228770}
+  - component: {fileID: 7787847024300228772}
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
@@ -2764,6 +2765,25 @@ MonoBehaviour:
   armadura: 0
   penetracionArmadura: 0
   fuerza: 0
+--- !u!114 &7787847024300228772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7446751701371968036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba56bda43f30654f969f5ec81fff55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 4998866156035321373, guid: d06e3676a97ba5643badc5fc4f5ceef0,
+    type: 3}
+  originPoint: {fileID: 2207702603282576267}
+  rbArrow: {fileID: 0}
+  speed: 0
+  isShooting: 0
+  coldDown: 0
 --- !u!4 &7886333023564709183
 Transform:
   m_ObjectHideFlags: 0

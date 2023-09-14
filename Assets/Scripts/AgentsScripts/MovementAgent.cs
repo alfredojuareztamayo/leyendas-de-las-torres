@@ -8,7 +8,7 @@ public class MovementAgent : MonoBehaviour
     private float movimientoVertical;
     public float velocidad = 5.0f; // Velocidad de movimiento del personaje
     [SerializeField] private Animator animator;
-    public Arrow arrow;
+    public BlowWeapon arrow;
 
     private void Start()
     {
